@@ -1,0 +1,42 @@
+// Write C++ Program to Find Largest Among 3 Numbers.
+
+#include<iostream>
+using namespace std;
+main()
+{
+    int a,b,c;
+    
+   cout<<"My Name Is Bhalani Pal"<<endl;
+    cout<<"En_no :: 220130318080 "<<endl;
+    cout<<"Enter the value of a : ";
+    cin>>a;
+    cout<<"Enter the value of b : ";
+    cin>>b;
+    cout<<"Enter the value of c : ";
+    cin>>c;
+    
+    if(a>b)
+    {
+      if(a>c)
+      {
+        cout<<"A is largest";
+      }
+      else
+      {
+        cout<<"C is largest";
+      }
+    }
+    else
+    {
+      if(b>c)
+      {
+        cout<<"B is largest";
+      }
+      else
+      {
+        cout<<"C is largest";
+      }
+  
+    }
+    return 0;
+}
